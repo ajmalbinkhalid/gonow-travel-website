@@ -1,0 +1,74 @@
+body{
+    background-image: url(pexels-quang-nguyen-vinh-222549-2166711.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    
+}
+*{
+    color: black;
+}    
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav{
+    position: relative;
+    right: 4vw;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.logo img{
+    height: 60px;
+    width: auto;
+}
+.logo-text{
+    margin-left: 0.5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.logo{
+    position: relative;
+    left: 2vw;
+    display: flex;
+    align-items: center;
+}
+main{   
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 4rem;
+    font-weight: 700;   
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    
+}
+.heading span{
+    color: #003399;
+}
+a:hover{
+    color: #003399;
+}
+button:hover{
+    background-color: #003399;
+    color: white;
+    border: white;
+}
